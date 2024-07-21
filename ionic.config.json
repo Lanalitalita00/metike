@@ -1,0 +1,8 @@
+{
+  "name": "Metike",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "4d406c05"
+}
