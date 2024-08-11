@@ -2,41 +2,56 @@
 <html>
     <head>
         <title>Metike</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+        
     </head>
     <body>
-        <div class="titleBar">
-            <h1>Magasins</h1>
-        </div>
-        <nav>
-            <navButton><img src="images/home.png" alt=""></navButton>
-            <navButton><img src="images/share.png"></navButton>
-            <navButton><img src="images/price.png" alt=""></navButton>
-            <navButton><img src="images/accoount.png" alt=""></navButton>
-        </nav>
-        <button id="add_all_button">
-            <p>+</p>
-        </button>        
-        <div class="home_tab">
-            <div class="store_label">
-                <p>Auchan</p>
+        <header>
+            <div class="titleBar">
+                <h1>Maga<span class="titlespan">sins</span></h1>
+            </div>      
+        </header>
+        <main>
+            <div class="home_tab">
+                <div class="store_label">
+                    <p>Auchan</p>
+                </div>
+                <div class="store_label">
+                    <p>Intermarché</p>
+                </div>
+                <div class="store_label">
+                    <p>Super U</p>
+                </div>
             </div>
-            <div class="store_label">
-                <p>Intermarché</p>
+            <div class="share_tab">
+    
             </div>
-            <div class="store_label">
-                <p>Super U</p>
+            <div class="price_tab">
+    
             </div>
-        </div>
-        <div class="share_tab">
-
-        </div>
-        <div class="price_tab">
-
-        </div>
-        <div class="accoount_tab">
-            
-        </div>
-        <p>Hello</p>
+            <div class="accoount_tab">
+                
+            </div>
+            <button id="add_all_button">
+                <p>+</p>
+            </button>               
+        </main>
+        <footer>          
+            <div class="footmenu">
+                <a href="#">
+                    <i class="fa-solid fa-house home"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-users users"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-coins coins"></i> 
+                <a href="#">
+                    <i class="fa-solid fa-user user"></i>
+                </a>
+            </div>     
+        </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>
